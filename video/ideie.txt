@@ -1,0 +1,35 @@
+n = write(sock,"f\n",2);
+	
+if (n < 0) cout<<"ERROR writing to socket";
+	
+n = write(sock,"r\n",2);
+	
+if (n < 0) cout<<"ERROR writing to socket";
+	
+n = write(sock,"f\n",2);
+	
+if (n < 0) cout<<"ERROR writing to socket";
+	
+n = write(sock,"f\n",2);
+	
+if (n < 0) cout<<"ERROR writing to socket";
+	
+n = write(sock,"l\n",2);
+	
+if (n < 0) cout<<"ERROR writing to socket";
+
+typedef struct Figure
+
+{
+	int h_MIN, h_MAX, s_MIN, s_MAX , v_MIN, v_MAX;
+}
+FIG;
+
+
+FIG blue = {93,176,42,256,0,256};
+
+FIG red = {8,18,75,256,0,256};
+
+FIG green = {35,86,140,256,55,256};
+
+FIG yellow= {59,67,76,152,0,256};
